@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-success bg-gradient text-white">
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card p-4 shadow-lg" style="width: 400px;">
+    <h2 class="text-center mb-4 text-success">Login</h2>
+    <form action="nlogin.php" method="post">
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" name="username" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" name="password" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-success w-100">Login</button>
+    </form>
+    <div class="text-center mt-3">
+      <a href="nregister.html">Don't have an account? Register</a><br>
+      <a href="index.html" class="btn btn-link">Back to Home</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
